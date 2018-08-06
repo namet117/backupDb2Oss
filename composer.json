@@ -1,0 +1,16 @@
+{
+    "name": "namet/backup-db-to-oss",
+    "description": "backup MySQL data to aliyun OSS",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "name-T",
+            "email": "namet117@163.com"
+        }
+    ],
+    "require": {
+        "php":">=5.3",
+        "aliyuncs/oss-sdk-php": "^2.3"
+    }
+}
