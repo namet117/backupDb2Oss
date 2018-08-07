@@ -1,0 +1,26 @@
+<?php
+
+return array(
+    'oss' => array(
+        //Access key Id
+        'id' => '',
+        //Access key Secret
+        'secret' => '',
+        // Bucket名称
+        'bucket' => '',
+        // 数据中心域名
+        'endpoint' => '',
+    ),
+    'db' => array(
+        // 地址
+        'host' => '',
+        // 用户名
+        'user' => '',
+        // 密码
+        'password' => '',
+        // 端口号，不填默认3306
+        'port' => '',
+        // 需要备份的数据库名
+        'db' => 'db1,db2,db3'
+    )
+);

@@ -6,18 +6,7 @@
  */
 
 require './vendor/autoload.php';
-
-define('ROOT_DIR', __DIR__ . '/');
-
-function autoload($class)
-{
-    $filename = ROOT_DIR . '/' . str_replace('\\', '/', $class) . '.php';
-    if (file_exists($filename)) {
-        require $filename;
-    }
-}
-
-spl_autoload_register('autoload');
+require './init.php';
 
 $run = new App\Run();
 $run->exec();

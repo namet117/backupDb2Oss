@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "38431adfd348296caa06f2af0c735a60",
+    "hash": "3114e2e69b02d97d5fb05ddda0062a28",
+    "content-hash": "0ba94a249054ca146737a0364d8bd7f9",
     "packages": [
         {
             "name": "aliyuncs/oss-sdk-php",
@@ -51,7 +52,7 @@
             ],
             "description": "Aliyun OSS SDK for PHP",
             "homepage": "http://www.aliyun.com/product/oss/",
-            "time": "2018-01-08T06:59:35+00:00"
+            "time": "2018-01-08 06:59:35"
         }
     ],
     "packages-dev": [],
@@ -60,6 +61,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.3"
+    },
     "platform-dev": []
 }

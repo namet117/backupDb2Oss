@@ -12,5 +12,11 @@
     "require": {
         "php":">=5.3",
         "aliyuncs/oss-sdk-php": "^2.3"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
     }
 }
