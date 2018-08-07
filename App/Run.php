@@ -81,6 +81,6 @@ class Run
 
     private function _upload()
     {
-        Oss::getInstance()->config($this->_config['oss'])->upload('193.112.3.129-20180807131633.sql.gz', 'data/193.112.3.129-20180807131633.sql.gz');
+        Oss::getInstance()->config($this->_config['oss'])->upload($this->_filename, $this->_fullpath);
     }
 }
